@@ -8,3 +8,6 @@
 ## GPT vs BERT
 - **GPT** is a unidirectional, decoder-only model designed for text generation.
 - **BERT** is bidirectional and used for discriminative tasks like classification and question answering.
+
+## Medium Article:
+- [Read my full article on Medium](<https://medium.com/@vijayjun89/gpt-vs-bert-a-comprehensive-comparison-of-two-powerful-language-models-df27c2b45733>)
