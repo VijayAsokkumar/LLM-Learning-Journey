@@ -1,0 +1,21 @@
+GPT (Generative Pre-trained Transformer) vs BERT (Bidirectional Encoder Representations from Transformers)
+
+| Parameter                     | GPT (Generative Pre-trained Transformer)     | BERT (Bidirectional Encoder Representations from Transformers)     |
+|--------------------------------|----------------------------------------------|---------------------------------------------------------------------|
+| Architecture                   | Decoder-only (Transformer)                   | Encoder-only (Transformer)                                          |
+| Training Objective             | Causal Language Modeling (predict next token) | Masked Language Modeling (predict masked tokens)                    |
+| Directionality                 | Unidirectional (left-to-right)               | Bidirectional (uses both left and right context)                    |
+| Use Case                       | Text generation, creative writing, dialogue  | Text classification, question answering, named entity recognition   |
+| Main Strength                  | Generative tasks (e.g., text completion)     | Discriminative tasks (e.g., sentence classification, token-level tasks) |
+| Contextual Understanding       | Looks at past tokens only                    | Looks at both past and future tokens (rich context understanding)   |
+| Model Output                   | Generates text (next-word prediction)        | Provides embeddings or classifications                             |
+| Training Data                  | Left-to-right text sequences (causal context) | Masked tokens for contextual understanding                          |
+| Fine-Tuning Approach           | Fine-tuned for generative tasks              | Fine-tuned for classification, question answering, token-level tasks |
+| Example Tasks                  | Story generation, code generation, dialogue systems | Sentiment analysis, question answering, NER (Named Entity Recognition) |
+| Pre-training Objective         | Predict the next word based on previous context | Predict the missing word in a sentence using surrounding context    |
+| Examples of Models             | GPT-2, GPT-3, GPT-4                          | BERT, RoBERTa, DistilBERT, ALBERT                                   |
+| Size (Number of Parameters)    | Typically larger (GPT-3: 175B parameters)    | Typically smaller (BERT-large: 340M parameters)                     |
+| Tokenization                   | Byte-Pair Encoding (BPE)                     | WordPiece tokenization                                              |
+| Real-World Applications        | Chatbots, creative writing, summarization    | Search engines, sentiment analysis, language translation            |
+| Output Type                    | Generates a sequence of tokens               | Outputs a fixed-length embedding or classification                  |
+| Memory/Computational Needs     | Higher for large models (GPT-3)              | Comparatively lower for BERT-base                                   |
